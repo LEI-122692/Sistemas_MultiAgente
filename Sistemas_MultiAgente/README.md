@@ -22,7 +22,7 @@ O objetivo é comparar o desempenho de agentes reativos (Greedy), agentes de Apr
 ### Configuração
 1.  Clone este repositório:
     
-    git clone <INSIRA_AQUI_O_LINK_DO_SEU_GITHUB>
+    git clone <https://github.com/LEI-122692/Sistemas_MultiAgente>
     cd Sistemas_MultiAgente
     
 
@@ -81,13 +81,21 @@ Isto irá gerar e apresentar automaticamente janelas com:
 
 Estrutura do Projeto
 Agents/: Contém a implementação das classes dos Agentes ("Cérebros").
+
 qlearning_labirinto.py / qlearning_farol.py: Agentes de Aprendizagem por Reforço.
+
 genetic_agent.py: Agente base com Rede Neuronal.
+
 greedy_farol.py: Agente de controlo (heurística simples).
+
 Core/: Motor de simulação (Simulator.py) e gestão do ciclo de vida.
+
 Envs/: Definição da física e regras dos Ambientes (LabirintoEnvironment, FarolEnvironment).
+
 Experiments/: Scripts que orquestram os treinos e testes (chamados pelo menu).
+
 main.py: Ponto de entrada da aplicação (Interface CLI).
+
 analise.py: Módulo de processamento de dados e geração de gráficos matplotlib.
 
 Autores:
@@ -95,3 +103,4 @@ Autores:
 Miguel Nunes (122707) 
 
 Ricardo Lourenço (122692)
+
