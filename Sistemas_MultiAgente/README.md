@@ -80,29 +80,30 @@ Isto irá gerar e apresentar automaticamente janelas com:
 3.Curvas de Evolução: Progresso da Fitness e da Novidade ao longo das gerações.
 
 Estrutura do Projeto
-*Agents/: Contém a implementação das classes dos Agentes ("Cérebros").
+* Agents/: Contém a implementação das classes dos Agentes ("Cérebros").
 
-*qlearning_labirinto.py / qlearning_farol.py: Agentes de Aprendizagem por Reforço.
+* qlearning_labirinto.py / qlearning_farol.py: Agentes de Aprendizagem por Reforço.
 
-*genetic_agent.py: Agente base com Rede Neuronal.
+* genetic_agent.py: Agente base com Rede Neuronal.
 
-*greedy_farol.py: Agente de controlo (heurística simples).
+* greedy_farol.py: Agente de controlo (heurística simples).
 
-*Core/: Motor de simulação (Simulator.py) e gestão do ciclo de vida.
+* Core/: Motor de simulação (Simulator.py) e gestão do ciclo de vida.
 
-*Envs/: Definição da física e regras dos Ambientes (LabirintoEnvironment, FarolEnvironment).
+* Envs/: Definição da física e regras dos Ambientes (LabirintoEnvironment, FarolEnvironment).
 
 * Experiments/: Scripts que orquestram os treinos e testes (chamados pelo menu).
 
-main.py: Ponto de entrada da aplicação (Interface CLI).
+* main.py: Ponto de entrada da aplicação (Interface CLI).
 
-*analise.py: Módulo de processamento de dados e geração de gráficos matplotlib.
+* analise.py: Módulo de processamento de dados e geração de gráficos matplotlib.
 
 Autores:
 
 Miguel Nunes (122707) 
 
 Ricardo Lourenço (122692)
+
 
 
 
