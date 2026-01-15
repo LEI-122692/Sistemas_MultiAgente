@@ -4,7 +4,7 @@ Este projeto implementa uma plataforma de simulação para agentes autónomos, d
 
 O objetivo é comparar o desempenho de agentes reativos (Greedy), agentes de Aprendizagem por Reforço (Q-Learning) e agentes Evolutivos (Algoritmos Genéticos com Neuroevolução) em ambientes de complexidade variável.
 
-## 📋 Funcionalidades Principais
+## Funcionalidades Principais
 
 * **Ambientes:**
     * **Farol:** Espaço contínuo convexo (sem obstáculos complexos), ideal para validação de baselines.
@@ -16,11 +16,8 @@ O objetivo é comparar o desempenho de agentes reativos (Greedy), agentes de Apr
 
 ---
 
-## 🛠️ Instalação e Requisitos
+##  Instalação e Requisitos
 
-### Pré-requisitos
-* Python 3.8 ou superior.
-* Biblioteca `matplotlib` (para geração de gráficos).
 
 ### Configuração
 1.  Clone este repositório:
@@ -36,7 +33,7 @@ O objetivo é comparar o desempenho de agentes reativos (Greedy), agentes de Apr
 
 ---
 
-## 🚀 Guia de Execução (Como Testar)
+##  Guia de Execução (Como Testar)
 
 O projeto possui um ponto de entrada centralizado. Para iniciar o simulador, execute o ficheiro `main.py` na raiz do projeto.
 
@@ -65,7 +62,7 @@ Ao iniciar, será apresentado o seguinte menu interativo no terminal:
 
 ---
 
-## 📊 Análise de Resultados
+##  Análise de Resultados
 
 Todas as simulações geram ficheiros de log em formato `.csv` na raiz do projeto (ex: `resultados_labirinto.csv`, `resultados_farol.csv`).
 
@@ -96,4 +93,5 @@ analise.py: Módulo de processamento de dados e geração de gráficos matplotli
 Autores:
 
 Miguel Nunes (122707) 
+
 Ricardo Lourenço (122692)
