@@ -92,9 +92,9 @@ Estrutura do Projeto
 
 *Envs/: Definição da física e regras dos Ambientes (LabirintoEnvironment, FarolEnvironment).
 
-*Experiments/: Scripts que orquestram os treinos e testes (chamados pelo menu).
+* Experiments/: Scripts que orquestram os treinos e testes (chamados pelo menu).
 
-*main.py: Ponto de entrada da aplicação (Interface CLI).
+main.py: Ponto de entrada da aplicação (Interface CLI).
 
 *analise.py: Módulo de processamento de dados e geração de gráficos matplotlib.
 
@@ -103,5 +103,6 @@ Autores:
 Miguel Nunes (122707) 
 
 Ricardo Lourenço (122692)
+
 
 
